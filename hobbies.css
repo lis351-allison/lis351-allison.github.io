@@ -1,0 +1,28 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+            background-color: #ffcccc;
+        }
+         p {
+            font-size: 22px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .section {
+            width: 30%;
+            border: 2px solid #333; 
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        .image-section img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }

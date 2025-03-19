@@ -1,0 +1,39 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: red;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .box {
+            width: 30%;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .boxes {
+                flex-direction: column;
+                align-items: center;
+            }
+            .box {
+                width: 80%;
+                margin-bottom: 10px;
+            }
+        }
+        p {
+    font-family: "Times New Roman", Times, serif;
+}
+   

@@ -1,0 +1,38 @@
+
+        body {
+            background-color: #ffcccc;
+        }
+        h1 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        h2 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+         p {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 30px;
+        }
+        nav {
+            margin: 5 20px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            text-align: center;
+        }
+        img {
+        display: inline-block; 
+        margin: 20px; 
+        width: 25%; 
+        border-radius: 10px;
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
